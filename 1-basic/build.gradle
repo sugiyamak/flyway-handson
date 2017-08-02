@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'mysql', name: 'mysql-connector-java', version: '5.1.42'
+    }
+}
+
+plugins {
+    id "org.flywaydb.flyway" version "4.2.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+flyway {
+    url = "jdbc:mysql://localhost/handson1"
+    user = 'root'
+    cleanDisabled = true
+}
