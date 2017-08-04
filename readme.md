@@ -3,10 +3,23 @@
 
 ## setup
 
+- could9
+
 ```
 mysql-ctl start
 mysql -u root < create_db.sql
 ```
+
+- codenvy
+
+```
+sudo apt-get update
+sudo apt-get -y install mysql-client
+mysql -u petclinic < create_db.sql
+```
+
+password: password
+
 
 ## 1 basic
 
