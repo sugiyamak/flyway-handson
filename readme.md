@@ -15,7 +15,7 @@ mysql -u root < create_db.sql
 ```
 sudo apt-get update
 sudo apt-get -y install mysql-client
-mysql -u petclinic < create_db.sql
+mysql -h db -u petclinic -p < create_db.sql
 ```
 
 password: password
