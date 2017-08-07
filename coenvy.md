@@ -12,11 +12,11 @@
 
 ![](img/3.png)
 
-- `Git` にこのリポジトリのURL( https://github.com/vertical-blank/flyway-handson.git )をペースト
+- `Git` にこのリポジトリのURL( https://github.com/vertical-blank/flyway-handson.git )をペーストし`Add`を押す
 
 ![](img/4.png)
 
-- しばし待つ
+- `Create` を押ししばし待つ
 
 ![](img/5.png)
 
@@ -34,6 +34,7 @@ sudo apt-get install mysql-client -y
 
 - `CREATE DATABASE` スクリプトを流す (passは `password` )
 ```
-mysql -h db -u petclinic -p < create_db.sql
+cd flyway-handson
+mysql -h db -u root -p < create_db.sql
 ```
 
