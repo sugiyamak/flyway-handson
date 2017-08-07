@@ -16,8 +16,8 @@ repositories {
 }
 
 flyway {
-    url = "jdbc:mysql://localhost/handson2"
-    user = 'petclinic'
+    url = "jdbc:mysql://db/handson2"
+    user = 'root'
     password = 'password'
     cleanDisabled = true
 }
