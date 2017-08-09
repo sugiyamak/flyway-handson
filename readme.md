@@ -41,7 +41,7 @@ cd 1-basic
 ### info
 
 ```
-cd 1-basic
+cd 2-existing
 ./gradlew flywayInfo
 ```
 
